@@ -1,0 +1,248 @@
+.userComment-wrapper {
+  width: 283px;
+  margin: 5px 0 5px 0;
+  margin-right: 12px;
+  display: flex;
+  align-items: flex-start;
+  /* font-family: "IBM Plex Mono"; */
+}
+.userComment-wrapper > .userComment-name {
+  font-size: 14px;
+}
+.content-viewPost > .userComment-wrapper {
+  display: flex;
+}
+
+.litsUser-Comment .CommentItems-ower-content-top-name {
+  font-size: 12px;
+}
+
+.userComment-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #95e6c2;
+}
+.userComment-avatar {
+  height: 25px !important;
+  width: 25px !important;
+  object-fit: cover !important;
+  margin-right: 8px !important;
+  border-radius: 50% !important;
+}
+/* .userComment-name {
+    margin-right: 10px;
+    font-size: 12px;
+} */
+.userComment-name > span {
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 12px;
+  margin-right: 10px;
+  /* identical to box height */
+
+  color: #383838;
+}
+.userComment-name > p {
+  /* font-family: "IBM Plex Mono"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 2.5px 0;
+  line-height: 13px;
+  /* identical to box height */
+
+  color: #ababab;
+}
+.wrap-user {
+  display: flex;
+  align-items: center;
+}
+
+.block-cmt {
+  /* display: flex; */
+  width: 100%;
+}
+
+.userCapsion-text {
+  font-size: 12px;
+  font-family: Roboto;
+}
+.litsUser-Comment > .userComment-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 89%;
+}
+.userComment-wrapper {
+  width: 13%;
+}
+.userComment-text {
+  font-family: "Roboto";
+  font-size: 12px;
+}
+
+.CommentItem {
+  width: 490px;
+  min-height: 72px;
+}
+
+.CommentItem-users {
+  flex-direction: column;
+  /* margin-right: 30px; */
+  /* padding-right: 30px; */
+}
+.CommentItem-user-infor {
+  display: flex;
+  width: 466px;
+  height: 40px;
+}
+
+.CommentItem-avatarUser {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.CommentItem-user-content-top {
+  flex-direction: column;
+}
+
+.CommentItem-user-content-col {
+  align-items: center;
+}
+
+.container-CommentItem-user-content {
+  display: flex;
+  align-items: center;
+}
+
+.CommentItems-user-content-top-name {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #000000;
+}
+
+.CommentItem-user-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  display: block;
+  margin: 0 9px;
+  border-radius: 50%;
+}
+
+.CommentItem-user-addFriend {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.CommentItem-user-addFriend:hover {
+  color: #383838;
+}
+
+.CommentItems-user-content-top-createAt {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.CommentItems-user-content-top-createAt-icon {
+  width: 12px !important;
+  height: 12px !important;
+  margin-right: 3px;
+}
+
+.CommentItems-user-content-top-createAt-text {
+  font-size: 13px;
+  font-weight: 500;
+  /* line-height: 16px; */
+  color: #ababab;
+}
+
+.CommentItems-user-content-bottom {
+  margin: 0px 0 15px 50px;
+  font-size: 14px;
+  min-height: 22px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.dot_mores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  font-size: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.dot_mores:hover {
+  background-color: #d8d8d8;
+}
+.edit-comment-control {
+  margin-left: 20px;
+}
+.iconEditcomment {
+  width: 25px !important;
+  height: 25px !important;
+  background-color: transparent;
+}
+.inputvaluePost {
+  width: 100%;
+  min-height: 20px !important;
+  padding: 0 !important;
+  margin: 0px 0 -5px 0px !important;
+}
+.CommentItems-user-content-bottom-content-comment {
+  min-height: 22px;
+}
+
+.EditCommentsPost {
+  position: absolute;
+  right: -10%;
+  margin-top: 0%;
+  background-color: #ededed;
+  width: 160px;
+  height: 90px;
+  z-index: 93;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+.EditCommentsPost > li {
+  font-size: 12px;
+  font-family: "IBM Plex Mono";
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 2.5px 0;
+  width: 100%;
+  height: 35px;
+  user-select: none;
+  cursor: pointer;
+  padding: 0 6px;
+}
+.EditCommentsPost > li:hover {
+  background-color: #ababab;
+}
+.EditCommentsPost > li > img {
+  margin-right: 5px;
+}
+.iconCommentPost {
+  height: 20px !important;
+  width: 20px !important;
+}

@@ -1,0 +1,213 @@
+#EditProfile {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.235);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+#EditProfile .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 836px;
+  height: 940px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 30px;
+  padding-top: 0;
+}
+#EditProfile .container header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid black;
+}
+#EditProfile .container header img {
+  margin-right: 10px;
+}
+#EditProfile .container header h2 {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.EditProfile-AvatarUser {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 25px;
+  position: relative;
+}
+.EditProfile-AvatarUser > img {
+  object-fit: cover;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  border: 1px solid #42d392;
+}
+.pencil {
+  position: absolute;
+  background-color: #42d392;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 6px;
+  right: 286px;
+  cursor: pointer;
+}
+.pencil > img {
+  height: 50%;
+  width: 50%;
+}
+#EditProfile .container main {
+  padding: 0 40px;
+}
+.EditProfile-infomation-bio {
+  height: 143px;
+}
+#Bio:hover{
+  border-color:rgba(66, 211, 146, 1) ;
+
+}
+#Bio:focus{
+  border-color: rgba(66, 211, 146, 1)!important;
+}
+.EditProfile-infomation-bio label {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.EditProfile-infomation
+  > .EditProfile-infomation-bio
+  > .css-dev-only-do-not-override-ph9edi {
+  height: 60px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #3e3e3e;
+}
+
+#inputImage{
+  display: none;
+}
+
+.Edit {
+  display: flex;
+  flex-direction: column;
+  height: 83px;
+  margin-top: 15px;
+}
+
+.EditLabel {
+  position: relative;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.EditInput {
+  height: 42px;
+  border-radius: 5px;
+  resize: none;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 5px;
+}
+.EditInput:focus {
+  border-color: rgba(66, 211, 146, 1);
+}
+.EditProfile-infomation-username {
+  margin-top: 0px;
+}
+.error {
+  border: 1px solid red!important;
+}
+.errorText{
+  height: 10px;
+  color: red;
+}
+/* Style cho input khi nhập đúng */
+.success {
+  border-color: rgba(66, 211, 146, 1)!important;
+}
+.EditFullName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.EditProfile-infomation-FirstName,
+.EditProfile-infomation-LastName {
+  width: 300px;
+}
+
+.footer-btn {
+  position: absolute;
+  right: 8%;
+  bottom: 8%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-btn > div,
+.footer-btn > button {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+
+  border-radius: 6px;
+  margin-left: 20px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.footer-btn > div {
+  background: #ffffff;
+  border: 1px solid #42d392;
+  color: #42d392;
+}
+.footer-btn > button {
+  background: #42d392;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.icon-pass-edit-profile {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  /* transform: translateY(0%); */
+  height: 24px;
+}

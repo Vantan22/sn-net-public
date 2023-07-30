@@ -1,0 +1,120 @@
+
+.nav-sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+  margin-left: 34px;
+  height: 49px;
+}
+
+
+.cricle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.cricle-red {
+  background-color: #a72c05;
+}
+
+.cricle-yellow {
+  background-color: #efc83e;
+}
+
+.cricle-green {
+  background-color: #1bae18;
+}
+
+.ConfirmPassword {
+  margin-left: 5%;
+}
+
+.btnSignup button {
+  height: 44px;
+  width: 152px;
+  border-radius: 6px;
+  background-color: #35eb9a;
+  margin-top: 60px;
+  border: #35eb9a;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.btnSignup {
+  display: flex;
+  justify-content: space-around;
+}
+.btnSignup button:hover{
+  background-color: #37A875;
+}
+
+.icon_Github{
+  width: 35px;
+  height: 35px;
+}
+.sign-google p {
+  margin-left: 15px;
+}
+.sign-github p {
+  margin-left: 15px;
+}
+.icon_Google {
+  width: 35px;
+  height: 35px;
+}
+
+.icon_Google:hover ,
+.icon_Yahoo:hover {
+  opacity: 0.8;
+}
+.icon_Yahoo {
+  height: 35px;
+  width: 35px;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  height: 23px;
+}
+
+.register {
+  font-size: 19px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  line-height: 24px;
+  color: #000000;
+}
+.register a {
+  color: #33a06f;
+  text-decoration: none;
+}
+
+.sign-google,
+.sign-github {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.sign-google p,
+.sign-github p {
+  font-family: "IM FELL DW Pica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+}
+.input-signup .icon {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: -3%;
+}

@@ -1,0 +1,44 @@
+.user-recent {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 5px;
+}
+.user-recent:hover {
+    background: #555353;
+    border-radius: 7px;
+}
+.user-recent .user {
+  display: flex;
+  align-items: center;
+}
+
+
+.user-recent .user > img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+.user-recent .user > span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.user-recent-close {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}

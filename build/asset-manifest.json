@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0386abf5.css",
+    "main.js": "/static/js/main.de3d804c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Isolation_Mode.png": "/static/media/Isolation_Mode.c30481ffa8f10f56309d.png",
+    "static/media/Layer_1.png": "/static/media/Layer_1.738934afa65469396d14.png",
+    "static/media/ChatGPT_logo.svg.webp": "/static/media/ChatGPT_logo.svg.587de9149cac1b54a850.webp",
+    "static/media/123123.png": "/static/media/123123.9894c317488508351ad4.png",
+    "static/media/smail logologo.svg": "/static/media/smail logologo.34eff534cf7ecb00ff1bb4e4929f015d.svg",
+    "static/media/logouticon.svg": "/static/media/logouticon.b5ea846ed018863e7c4c6f0730ae8a87.svg",
+    "static/media/user-edit.svg": "/static/media/user-edit.e1e9c3120e78643d4821afb1cd337e28.svg",
+    "static/media/edit-06.svg": "/static/media/edit-06.69168f34ddfd0f0c6c9772ce255a4374.svg",
+    "static/media/friends.svg": "/static/media/friends.a3914f928930c24a64705044580046f4.svg",
+    "static/media/search-favorite.svg": "/static/media/search-favorite.ae0dafa910bc7e1dd9f66f927b8e2be9.svg",
+    "static/media/messagecomments.svg": "/static/media/messagecomments.b38e5836f5c8f091d6748d936eecbdeb.svg",
+    "static/media/trashdelete_icon.svg": "/static/media/trashdelete_icon.0c0814cde81903d94fcae8bf19ed0e15.svg",
+    "static/media/video-play.svg": "/static/media/video-play.d442f2b9ae2859c15f1db651d0ab4d13.svg",
+    "static/media/LogoGoogle.svg": "/static/media/LogoGoogle.75d89ce6b641941a80bfcd5ba64c92d9.svg",
+    "static/media/icon__Component.svg": "/static/media/icon__Component.78098add2096f1a7d1248c044fa63804.svg",
+    "static/media/home.svg": "/static/media/home.101fd83efd408470e9cd29569aa8a7f7.svg",
+    "static/media/group.svg": "/static/media/group.c70ef3d7e7fd5a26803d0c879ce024fc.svg",
+    "static/media/grid.svg": "/static/media/grid.f34f467f61551fe1c996eacc264eb098.svg",
+    "index.html": "/index.html",
+    "static/media/heartabcd.svg": "/static/media/heartabcd.3ee7c56367897365f8caf7ff1652814c.svg",
+    "static/media/Friend_request.svg": "/static/media/Friend_request.622f2017449d851ea387c96ded0790b6.svg",
+    "static/media/heart.svg": "/static/media/heart.ed35af3eac52df8fd866b9f238f05187.svg",
+    "static/media/suggestions.svg": "/static/media/suggestions.7a4f365afa53e4ac685d822477c8648f.svg",
+    "static/media/icon_message.svg": "/static/media/icon_message.2d6d37a0021c6503bd89701e87872968.svg",
+    "static/media/clock2.svg": "/static/media/clock2.50d124a5bbcfaa5717e4417a4cd5650c.svg",
+    "static/media/LogoYahoo.svg": "/static/media/LogoYahoo.b5703ebeba41ad0570b96eb4feaaa0ac.svg",
+    "static/media/Groupsearch_close.svg": "/static/media/Groupsearch_close.b6c717a9ea0864ac62553ee4f5a2081e.svg",
+    "static/media/GroupdleteUserRecents.svg": "/static/media/GroupdleteUserRecents.9d42714e9a8d89891f305402f275d2ba.svg",
+    "main.0386abf5.css.map": "/static/css/main.0386abf5.css.map",
+    "main.de3d804c.js.map": "/static/js/main.de3d804c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0386abf5.css",
+    "static/js/main.de3d804c.js"
+  ]
+}

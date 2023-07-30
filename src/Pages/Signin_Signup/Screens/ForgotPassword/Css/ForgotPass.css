@@ -1,0 +1,205 @@
+.forgotPassword {
+  font-family: "IM FELL DW Pica";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  margin-top: -35px;
+  margin-bottom: 6px;
+}
+
+.btnForgot button {
+  width: 460px;
+  height: 44px;
+  background-color: #35EB9A;
+  border:#35EB9A;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  /* margin-top: 42px; */
+  /* margin-bottom: 192px; */
+  cursor: pointer;
+}
+.btnForgot button:hover{
+  background-color: #37A875;
+}
+
+.btnForgotEmail button{
+  width: 460px;
+  height: 44px;
+  background-color: #42d392;
+  border: #42d392;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 40px;
+  margin-bottom: 187px;
+  cursor: pointer;
+}
+
+/* .hrForgot {
+    width: 280px;
+    margin: auto;
+    margin-top: 165.8px;
+} */
+
+.hrNewPass {
+  width: 280px;
+  margin: auto;
+  margin-top: 38.8px;
+}
+
+.continueWithForgot p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.input-forgot p {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  line-height: 18px;
+  margin-left: 84px;
+  margin-bottom: 17px;
+}
+
+.input-forgot {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.input-forgot input {
+  width: 460px;
+  height: 56px;
+  border-radius: 6px;
+  padding: 20px 20px;
+  font-size: 17px;
+  line-height: 21px;
+  /* margin-bottom: 28px; */
+  background: #ffffff;
+  border: 0.6px solid #282828;
+  font-family: "IBM Plex Mono";
+  outline: none;
+}
+
+.input-forgot input:focus{
+  border: 1px solid #42D392;
+}
+
+.input-forgot .errorText {
+  color: #ff4141;
+  font-size: 14px;
+  position: absolute;
+  margin-top: 6px;
+}
+
+.input-NewPass p {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  line-height: 18px;
+  margin-left: 84px;
+  margin-bottom: 17px;
+}
+
+.input-NewPass {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 71px;
+}
+
+.input-NewPass input {
+  width: 460px;
+  height: 56px;
+  border-radius: 6px;
+  padding: 20px 20px;
+  font-size: 18px;
+  margin-bottom: 32px;
+  border: 1px solid #282828;
+  outline: none;
+  cursor: pointer;
+}
+.input-NewPass input:focus{
+  border: 1px solid #35EB9A;
+}
+
+.input-NewPass .icon {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: -2.5%;
+  width: 25px;
+  height: 25px;
+}
+
+.input-NewPass .errorText {
+  color: #ff4141;
+  font-size: 14px;
+  position: absolute;
+  margin-top: -29px;
+}
+
+.LickNewPass {
+      font-size: 19px;
+    margin-top: 20px;
+    line-height: 23.75px;
+    color: #000000;
+}
+
+.LickNewPass a {
+  color: #33a06f;
+  text-decoration: none;
+}
+
+.sign-NewPass {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+
+.sign-NewPass-google,
+.sign-NewPass-facebook {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sign-NewPass-google span,
+.sign-NewPass-facebook span {
+  font-size: 30px;
+  color: #42d392;
+  line-height: 37.5px;
+  padding: 2px 9px 0 9px;
+  border: solid 1px #42d392;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sign-NewPass-google p,
+.sign-NewPass-facebook p {
+  user-select: none;
+  font-family: "IM Fell DW Pica", serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+  margin: auto;
+  padding-left: 10px;
+}
+/* .line-continue {
+  width: 280px;
+  border-bottom: 1px solid #000000;
+  margin: 0 auto;
+  display: block;
+} */
+.line-continue-forgot{
+  width: 280px;
+  height: 1px;
+  border-bottom: 1px solid #000000;
+  margin: 0 auto;
+  display: block;
+  margin-top: 32px;
+}

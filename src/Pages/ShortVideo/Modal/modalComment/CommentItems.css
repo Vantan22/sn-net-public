@@ -1,0 +1,94 @@
+.CommentItems {
+  min-height: 50px;
+  margin-bottom: 10px;
+  /* max-width: 350px; */
+  justify-content: space-between;
+  align-items: bottom;
+}
+
+.CommentItems-ower-content-top {
+  font-family: "IBM Plex Mono";
+  margin-bottom: 5px;
+}
+.CommentItems-ower-content-top-name {
+  font-style: normal;
+  font-weight: 650;
+  font-size: 14px;
+  line-height: 13px;
+
+  color: #000000;
+  margin-right: 5px;
+}
+.CommentItems-avatarUser {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.CommentItems-ower-content-top-createAt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  /* identical to box height */
+
+  color: #ababab;
+}
+.CommentItems-ower-content-bottom {
+  max-width: 320px;
+}
+.dot_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  font-size: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 10px;
+
+  border-radius: 50%;
+  transform: rotate(90deg);
+  user-select: none;
+}
+.dot_more:hover {
+  background-color: #ababab;
+}
+.EditComments {
+  position: absolute;
+  right: -10%;
+  margin-top: 0%;
+  background-color: #ededed;
+  width: 180px;
+  height: 100px;
+  z-index: 93;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+.EditComments > li {
+  font-size: 14px;
+  font-family: "IBM Plex Mono";
+
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 2.5px 0;
+  width: 100%;
+  height: 40px;
+  user-select: none;
+  cursor: pointer;
+  padding: 0 6px;
+}
+.EditComments > li:hover {
+  background-color: #ababab;
+}
+.EditComments > li > img {
+  margin-right: 5px;
+}
+.iconComment {
+  height: 25px;
+  width: 25px;
+}

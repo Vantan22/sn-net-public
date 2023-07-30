@@ -1,0 +1,290 @@
+.modal-create-post {
+  font-family: "IBM Plex Mono";
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: white;
+  z-index: 100000;
+  width: 100%;
+  height: 100%;
+}
+.modal-create-post-wrapper {
+  position: absolute;
+  width: 1000px;
+  height: 700px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 23px;
+}
+.modal-create-post-content {
+  display: flex;
+  position: relative;
+  /* max-width: 700px; */
+}
+.modal-create-post-wrapper > header {
+  border-bottom: 1px solid #000000;
+  height: 45px;
+  width: 100%;
+  text-align: center;
+}
+.modal-create-post-wrapper > header > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 45px;
+
+  font-family: "IBM Plex Mono";
+  color: #000000;
+}
+
+.modal-create-post-wrapper > header .closeCreatePost {
+  position: absolute;
+  top: 14px;
+  right: 934px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.modal-create-post-wrapper > header > button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  cursor: pointer;
+  /* identical to box height */
+  border: none;
+  background-color: #ffffff;
+  color: #33a06f;
+}
+.modal-create-post-content-image {
+  position: absolute;
+  width: 606px;
+  height: 654px;
+
+  background: #3a3a3a;
+  /* border: 1px solid #000000; */
+  border-radius: 0px 0px 0px 24px;
+}
+
+.icon-photo-input {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+}
+.icon-photo-input svg {
+  height: 100px;
+  width: 100px;
+  color: #33a06f;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-file-upload {
+  color: #33a06f;
+  width: 606px;
+  border-bottom-left-radius: 24px;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#input-file-upload {
+  display: none;
+}
+
+#label-file-upload {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 24px;
+  font-family: "IBM Plex Mono";
+  background-color: #3a3a3a;
+}
+
+#label-file-upload.drag-active {
+  background-color: #3a3a3a;
+}
+
+.upload-button {
+  cursor: pointer;
+  padding: 0.25rem;
+  font-size: 1rem;
+  border: none;
+  font-family: "IBM Plex Mono";
+  background-color: transparent;
+  color: #33a06f;
+}
+
+.upload-button:hover {
+  text-decoration-line: underline;
+}
+
+#drag-file-element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.icon_prev_slider,
+.icon_next_slider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.icon_prev_slider {
+  left: 20px;
+}
+.icon_next_slider {
+  right: 20px;
+}
+
+.modal-create-post-content-addinfo {
+  position: absolute;
+  /* width: 100%; */
+  right: 0;
+  width: 392px;
+  /* margin-left: 20px; */
+  /* margin-top: 20px; */
+  /* margin-right: 20px; */
+  padding: 20px;
+}
+
+.user_create {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+.user_create > img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user_input {
+  width: 100%;
+  height: 168px;
+  border-bottom: 1px solid #3a3a3a;
+}
+.user_input > input {
+  height: 100%;
+  width: 100%;
+}
+
+/* .css-dev-only-do-not-override-ph9edi {
+  height: 168px;
+} */
+
+.ant-input .css-dev-only-do-not-override-ph9edi {
+  border: none;
+  focus: none;
+}
+.ant-input-data-count {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+
+#inputImages {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.input-image-box .input-label{
+  padding: 79px;
+}
+
+.input-label {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #33a06f;
+  font-size: 20px;
+  cursor: pointer;
+}
+.input-icon {
+  font-size: 100px;
+  color: #33a06f;
+}
+
+.slick-list {
+  width: 606px;
+  height: 654px;
+}
+.carousel-item {
+  width: 100%;
+  /* top: 21px; */
+  /* bottom:  21px; */
+  height: 654px;
+  /* height: 100%; */
+  /* object-fit: cover; */
+  position: relative;
+}
+.slick-track {
+  position: absolute;
+  top: 21%;
+}
+.carousel-item > img {
+  height: 654px !important;
+}
+.slick-track {
+  /* height: 654px; */
+}
+
+.slick-slide .slick-active .slick-current > div {
+  height: 654px;
+}
+img {
+  object-fit: cover !important;
+}
+
+/* .remove-button{
+  position: absolute;
+} */
+.trash-icon {
+  position: absolute;
+  /* top: 50px; */
+  /* right: 50px; */
+  bottom: 30px;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}

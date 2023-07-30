@@ -1,0 +1,27 @@
+.checkStep {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 432px;
+  margin: 0 auto;
+  margin-top: -65px;
+  margin-bottom: 35px;
+}
+.checkStep .Step {
+  font-family: "IBM Plex Mono";
+  font-size: 18px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background-color: #a5e8ca;
+  color: white;
+  border-radius: 50%;
+}
+.checkStep .Line {
+  width: 99px;
+  height: 1px;
+  border-bottom: 1px solid #ababab;
+}
+.Step.active {
+  background-color: #42d392;
+}

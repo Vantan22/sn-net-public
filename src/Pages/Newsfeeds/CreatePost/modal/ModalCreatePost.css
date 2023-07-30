@@ -1,0 +1,232 @@
+.Modal-CreatePost {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 2;
+  transition: all 0.3s linear;
+}
+.Modal-CreatePost-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 700px;
+  min-width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.Modal-CreatePost-header {
+  height: 45px;
+  border-bottom: 1px solid #000;
+}
+.Modal-CreatePost-header-controls {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  user-select: none;
+}
+.Modal-CreatePost-header-controls-right {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  color: #33a06f;
+  font-size: 15px;
+}
+.Modal-CreatePost-header-controls-right.btn {
+  background-color: transparent;
+  border: none;
+}
+.Modal-CreatePost-Content {
+  height: calc(700px - 45px);
+  display: flex;
+  max-width: 1000px;
+}
+
+/* Step 1 :  */
+.CreatePost-Images {
+  position: relative;
+  height: 100%;
+  width: 600px;
+  background-color: #3a3a3a;
+  order: 0;
+}
+.CreatePost-Images-input-label {
+  position: relative;
+  width: 600px;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+#inputImages {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.input-icon {
+  font-size: 110px;
+  color: #42d392;
+}
+.input-label-text {
+  font-size: 20px;
+  color: #42d392;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+}
+.CreatePost-Images-images {
+  width: 600px;
+  height: 100%;
+  object-fit: cover;
+}
+.CreatePost-Images-delete-icon {
+  position: absolute;
+  bottom: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #9898986c;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CreatePost-firstStep-delete-icon > img {
+  height: 24px;
+  width: 24px;
+}
+
+/* Second Step */
+
+.CreatePost-SecondStepm,
+.CreatePost-ThridStep {
+  display: flex;
+  /* width: 900px; */
+  height: 100%;
+}
+.CreatePost-SecondStep-image {
+  height: 100%;
+  width: 600px;
+  order: 0;
+}
+.CreatePost-SecondStep-image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.CreatePost-SecondStep-config {
+  order: 1;
+  width: 300px;
+}
+
+.FilterFrield {
+  height: 80px;
+  width: 80px;
+  margin: 20px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.FilterFrield-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Filter {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.FilterFrield-desc {
+}
+.btn-resetFilter {
+  width: 300px;
+  display: block;
+  margin: 0 10px;
+  text-align: end;
+  cursor: pointer;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  color: #afafaf;
+  font-size: 15px;
+}
+.btn-resetFilter.active {
+  width: 300px;
+  display: block;
+  margin: 0 10px;
+  text-align: end;
+  cursor: pointer;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  color: #33a06f;
+  font-size: 15px;
+}
+/* step 3 */
+.CreatePost-ThridStep {
+  position: relative;
+  width: 400px;
+  order: 1;
+}
+.CreatePost-ThridStep-config {
+  width: 400px;
+}
+.modal-create-post-content-addinfo {
+  /* width: 100%; */
+
+  /* margin-left: 20px; */
+  /* margin-top: 20px; */
+  /* margin-right: 20px; */
+  padding: 20px;
+}
+
+.user_create {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3a3a3a;
+
+  margin-bottom: 10px;
+}
+.user_create-name{
+  font-size: 16px;
+  font-weight: 600;
+}
+.user_create > img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user_input {
+  width: 100%;
+  height: 168px;
+}
+.user_input > input {
+  height: 100%;
+  width: 100%;
+}

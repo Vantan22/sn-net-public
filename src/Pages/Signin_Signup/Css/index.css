@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,500;1,300;1,400&family=IM+Fell+DW+Pica&display=swap");
+.modal-Sign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1200px;
+  height: 844px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border: solid 1px #ababab;
+  border-radius: 25px;
+  user-select: none;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 1px 1px 3px  #b9b8b8;
+}
+.zxcvbn {
+  margin-left: 50px;
+}
+.no-responsive {
+  display: none;
+}
+.grid-item > img {
+  width: 600px;
+  height: 600px;
+}
+.grid-item {
+  text-align: center;
+  width: 600px;
+  background-color: white;
+}
+.text {
+  display: block;
+  width: 600px;
+  font-size: 40px;
+  text-align: center;
+  font-family: "IM Fell DW Pica", serif;
+  color: #42d392;
+  margin-top: 20px;
+}
+
+@media (max-width : 970px) {
+  .no-responsive {
+    display: block;
+    
+    background-color: #333;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  .no-responsive > p {
+    margin:  20px;
+    text-align: center;
+    color: #42d392;
+  }
+  .login{
+    display: none;
+  }
+}

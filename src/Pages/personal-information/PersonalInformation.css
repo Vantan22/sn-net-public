@@ -1,0 +1,332 @@
+.avatar {
+  width: 900px;
+  margin: 40px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "IBM Plex Mono";
+  border-bottom: #000000 solid 1px;
+  padding-bottom: 40px;
+  user-select: none;
+  position: relative;
+}
+.avatar > div {
+  display: flex;
+}
+.avatar .userItem-avatar {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-right: 59px;
+  border-radius: 50%;
+}
+
+.avatar .UserItem-Name > span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
+  margin: 2.5px 0;
+  color: #383838;
+  display: flex;
+  align-items: center;
+}
+.avatar .total {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 24px;
+  color: #000000;
+}
+
+.avatar .total p {
+  font-family: IBM Plex Mono;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.avatar .total :nth-child(3) {
+  cursor: pointer;
+}
+.avatar .Username {
+  color: #42d392;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 27px;
+  position: absolute;
+  width: 114px;
+  height: 27px;
+  left: 20px;
+  top: 170px;
+}
+.avatar .description {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.PostPersonalInformation {
+  width: 945px;
+  margin-top: 1;
+}
+
+.PostPersonalInformation-Container {
+  position: relative;
+  display: inline-block;
+  width: 290px;
+  height: 290px;
+  margin: 0px 15px 14px 0px;
+}
+
+.PostPersonalInformation img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.PostPersonalInformation video {
+  cursor: pointer;
+  width: calc(925px / 4);
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.31);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.PersonalInformation .ant-tabs-nav-list {
+  position: relative !important;
+  top: 0;
+  left: 0;
+}
+.PersonalInformation .ant-tabs-nav-wrap span {
+  color: #42d392;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.PersonalInformation .ant-tabs-tab {
+  padding: 12px 5px;
+  z-index: 2;
+}
+.PersonalInformation .ant-tabs-nav::before {
+  all: unset;
+}
+.PersonalInformation .ant-tabs-ink-bar {
+  bottom: unset;
+  top: 0px;
+  background-color: #43b682;
+  z-index: 1000000;
+}
+.iconShortVideo,
+.iconGridPost {
+  width: 15px;
+  height: 15px;
+}
+
+.textShortVideo,
+.textGridPost {
+  font-family: "IBM Plex Mono", monospace;
+  margin-left: 5px;
+}
+
+.PostPersonalInformation-Container:hover .time-profile {
+  /* animation: fadeLeftIn ease .15s forwards; */
+}
+
+.PostPersonalInformation-Container:hover .overlay {
+  opacity: 1;
+}
+.overlay span {
+  color: #ffff;
+  display: block;
+}
+
+.overlay .capsion {
+  width: 236px;
+  max-height: 75px;
+  border-left: 1px solid #ababab;
+  padding-left: 11px;
+  position: absolute;
+  left: 10%;
+  overflow: hidden;
+}
+
+.PostPersonalInformation-Container:hover .capsion {
+  /* animation: fadeLeftIn ease .15s forwards;
+  animation-delay: .15s; */
+}
+
+.PostPersonalInformation-Container:hover .iconTym-iconComment {
+  /* animation: fadeBottomIn ease .3s forwards; */
+}
+
+.PostPersonalInformation-Container:hover .text-seeMore-postProfile {
+  /* animation: BaySacCauVong 5s ease infinite; */
+  color: #ffffff;
+}
+
+.UserItem-Name img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.UserItem-Name img.Icon2 {
+  margin-left: 12px;
+}
+.UserItem-Name a {
+  color: #000000;
+}
+.wrap-UserItem-Name {
+  display: flex;
+  align-items: center;
+}
+
+.UserItem-Name .btn {
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: #efefef;
+  color: #000000;
+  padding: 0 8px;
+  margin-left: 14px;
+  height: 26px;
+  line-height: 26px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.UserItem-Name .btn:hover {
+  background-color: #dbdbdb;
+}
+
+.iconTym-iconComment {
+  display: flex;
+  justify-content: space-around;
+  width: 290px;
+  position: absolute;
+  bottom: 20%;
+  align-items: center;
+}
+
+.icontim .IconImg,
+.iconCommentt .IconImg {
+  width: 22px;
+  height: 20px;
+  margin-right: 14px;
+}
+.icontim,
+.iconCommentt {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.seeMore-postProfile {
+  position: absolute;
+  bottom: 10%;
+  margin-left: 85px;
+  text-align: center;
+}
+
+.text-seeMore-postProfile {
+  /* margin-left: 32px; */
+  padding-bottom: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.line-seeMore {
+  width: 120px;
+  margin-top: 2px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.PostPersonalInformation-Container .userComment-avatar {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.ShortPersonalInformation-Container {
+  margin-right: 5px;
+  display: inline-block;
+  width: calc(925px / 4);
+  height: 411px;
+}
+.ShortPersonalInformation-Container > a {
+  display: block;
+  height: 100%;
+}
+.profile-qr-code {
+  position: absolute;
+  right: 32%;
+  top: 34%;
+  z-index: 3;
+}
+.profile-qr-code::before {
+  content: "";
+  position: absolute;
+
+  height: 0;
+  width: 0;
+  top: -10px;
+  left: 5px;
+  border-radius: 5px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid white;
+  z-index: 4;
+
+}
+@keyframes fadeLeftIn {
+  from {
+    left: -5%;
+    opacity: 0;
+  }
+  to {
+    left: 10%;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeBottomIn {
+  from {
+    bottom: 10%;
+    opacity: 0;
+  }
+  to {
+    bottom: 20%;
+    opacity: 1;
+  }
+}

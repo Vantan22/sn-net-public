@@ -1,0 +1,153 @@
+.Modal-Comment {
+  position: fixed;
+  z-index: 929999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.Modal-Comment-wrapper {
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  max-height: 750px;
+  background: #ffffff;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Modal-Comment-header {
+  height: 50px;
+  margin: auto 16px;
+}
+.Modal-Comment-header-title {
+  display: flex;
+  align-items: end;
+}
+.Modal-Comment-header-title > h2 {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 650;
+  font-size: 23px;
+  /* identical to box height */
+  margin-right: 10px;
+  color: #000000;
+}
+.Modal-Comment-header-title > span {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* identical to box height */
+
+  color: #ababab;
+}
+.Modal-Comment-content {
+  height: 450px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  margin: 20px;
+}
+.Modal-Comment-content-owner-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.Modal-Comment-content-owner-comment-info {
+  display: flex;
+  /* align-items: center; */
+}
+.avatar-owner {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.input-owner-comment {
+  width: 100%;
+  /* background-color: #ababab; */
+  /* min-height: 25px; */
+  width: 355px;
+  border-bottom: 1px solid #ababab;
+  transition: border-bottom 0.3s ease-in-out;
+}
+.input-owner-comment.focus {
+  border-bottom: 1px solid #42d392;
+}
+.input-owner-comment > input {
+  border: none;
+  outline: none;
+}
+.Modal-Comment-content-owner-comment-controls {
+  display: flex;
+  margin-top: 5px;
+}
+.Modal-Comment-controls {
+  text-align: center;
+  min-width: 70px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #42d392;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #000000;
+  user-select: none;
+  border: none;
+}
+.Modal-Comment-content-owner-comment-controls-cancel {
+  background-color: #fff;
+}
+.Modal-Comment-content-owner-comment-controls-cancel:hover {
+  background-color: #d9d9d9;
+}
+.Modal-Comment-content-owner-comment-controls-comment {
+  background-color: #42d392;
+  color: #ffffff;
+}
+.Modal-Comment-content-owner-comment-controls-comment:hover {
+  background-color: #34a874;
+}
+.Modal-Comment-content-Items {
+  margin-top: 20px;
+  height: calc(550px - 180px);
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Modal-Comment-content-Items::-webkit-scrollbar {
+  width: 5px;
+  height: calc(550px - 180px);
+  cursor: pointer;
+  color: #ababab;
+}
+.CommentItems-ower-content-bottom-content-comment {
+  display: block;
+  /* width: 355px; */
+  min-height: 22px;
+  line-height: 22px;
+}
+.inputvalue {
+  width: 300px;
+  padding: 0;
+}
+.iconEditcomment {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.betweenname {
+  justify-content: space-between;
+  align-items: center;
+  height: 22px;
+}

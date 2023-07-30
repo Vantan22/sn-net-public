@@ -1,0 +1,209 @@
+
+.container-sign {
+  font-family: "IM Fell DW Pica", serif;
+  width: 600px;
+  height: 842px;
+  border-radius: 26px;
+  border-right: 1px solid #ababab;
+  background-color: white;
+
+}
+.nav-sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.nav-sign h1 {
+  font-family: "IM Fell DW Pica";
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 46px;
+  color: #282828;
+}
+
+.cricle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.nav-color {
+  display: flex;
+  margin-right: 9px;
+  margin-top: -60px;
+}
+
+.cricle-red {
+  background-color: #a72c05;
+}
+.cricle-yellow {
+  background-color: #efc83e;
+}
+.cricle-green {
+  background-color: #1bae18;
+}
+
+.name-network {
+  font-family: "IM Fell DW Pica";
+  font-weight: 400;
+  margin-top: 59px;
+  margin-bottom: 78px;
+  font-size: 70px;
+  line-height: 88px;
+  color: #42d392;
+}
+.input-sign p {
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-left: 56px;
+  line-height: 18px;
+}
+.input-sign {
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+  font-size: 20px;
+  line-height: 25px;
+}
+.inputSignIn {
+  margin-top: 57px;
+}
+.inpuSignUp {
+  /* margin-top: 29px; */
+}
+.input-sign input {
+  margin-top: 17px;
+  margin-bottom: 22px;
+  width: 490px;
+  height: 56px;
+  border-radius: 6px;
+  padding: 20px 20px;
+  font-size: 17px;
+  line-height: 21px;
+  cursor: text;
+  border: 1px solid #282828;
+  outline: none;
+  font-size: 13;
+  background-color: white;
+
+
+}
+.input-sign input:focus{
+  border: 1px solid #42D392;
+}
+
+.input-sign .icon {
+  position: absolute;
+  margin-top: 36px;
+  margin-left: -3%;
+  width: 22px;
+  height: 22px;
+}
+.password {
+  margin-left: -2%;
+}
+.remember {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin: 3px 56px 0 56px;
+  font-size: 15px;
+}
+.remember label{
+  cursor: pointer;
+}
+.remember input {
+  font-size: 15px;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  line-height: 19px;
+}
+.remember a {
+  color: #4d4d4d;
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  height: 23px;
+}
+.remember-signIn{
+  margin-left: 348px;
+}
+.btnLogin button {
+  width: 460px;
+  height: 44px;
+  font-weight: 600;
+  background-color: #35eb9a;
+  margin-top: 34px;
+  margin-bottom: 32px;
+  border: #35eb9a;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.btnLogin button:hover{
+  background-color: #37A875;
+}
+
+.btnLoginNext {
+  /* margin-top: 20px; */
+}
+.btnLoginNext button {
+  width: 152px;
+  height: 44px;
+  margin-top: 60px;
+  margin-left: 309px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.line-continue {
+  width: 280px;
+  border-bottom: 1px solid #000000;
+  margin: 0 auto;
+  display: block;
+}
+.continueWith p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.sign-with {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 83.4px;
+  margin-right: 83px;
+  margin-top: 20px;
+}
+
+.input-sign .errorText {
+  color: #ff4141;
+  font-size: 14px;
+  margin-top: -18px;
+  margin-bottom: 3%;
+  position: absolute;
+  line-height: 17.5px;
+}
+.hideForm {
+  display: none;
+}
+
+
+.passError{
+  border: 1px solid #ff4141!important;
+}
+.pass.success{
+  border: 1px solid #42D392;
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,500;1,300;1,400&family=IM+Fell+DW+Pica&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all linear 0.3s;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+  height: calc(550px - 180px);
+  cursor: pointer;
+  color: #ababab;
+}
+html {
+  background-color: #f0f2f5;
+}
+a {
+  text-decoration: none;
+}
+.App {
+  text-align: center;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col-4 {
+  width: 33.3333334%;
+}
+.col-2 {
+  width: 20%;
+}
+/* .col-8 {
+  width:100%;
+} */
+
+.cuisor {
+  cursor: pointer;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.ant-tabs-nav-wrap {
+  justify-content: center;
+}
+.max-width {
+  max-width: 900px;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}

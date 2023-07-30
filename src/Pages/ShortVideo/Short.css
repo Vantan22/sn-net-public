@@ -1,0 +1,60 @@
+#short {
+  width: 600px;
+  height: 90vh;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+#short header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+#short header h1 {
+  margin: 0 15px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 31px;
+
+  color: #000000;
+}
+
+.nav-short {
+  display: flex;
+}
+
+.nav-short .prev,
+.nav-short .next {
+  display: block;
+  position: absolute;
+  /* position: relative;; */
+  top: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 50px;
+  /* left: 53.8%; */
+  font-size: 40px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+
+  background-color: #0000001c;
+  cursor: pointer;
+}
+.nav-short .prev:hover,
+.nav-short .next:hover {
+  background-color: #00000059;
+}
+.nav-short .prev {
+  left: -10%;
+  /* margin-right: 300px; */
+  /* margin-right: 20px; */
+  /* left: 35.5%; */
+}
+.nav-short .next {
+  /* left: 77%; */
+  right: -18%;
+}
